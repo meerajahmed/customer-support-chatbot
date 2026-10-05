@@ -1,0 +1,8 @@
+(venv) shihab@ADMINIT02 customer-support-chatbot % python chat.py
+Connected to harness support_chatbot (session 26a6a83b-81f2-49a6-8133-8b91b286a9a3-support-chat).
+Type a message, or 'quit' to exit.
+
+you> What is your return policy?
+bot> <thinking> The user asked about the return policy, which is a PLATFORM QUESTION. According to the FAQ, the return policy is as follows: "You can return most items within 30 days of delivery as long as they’re unused and in original packaging (unless the item arrived defective)." </thinking>
+
+You can return most items within 30 days of delivery as long as they’re unused and in original packaging (unless the item arrived defective).

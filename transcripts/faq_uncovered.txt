@@ -1,0 +1,10 @@
+(venv) shihab@ADMINIT02 customer-support-chatbot % python chat.py
+Connected to harness support_chatbot (session 21ef5e93-af34-4662-aeea-c7d6d5aeff5d-support-chat).
+Type a message, or 'quit' to exit.
+
+you> Do you offer price matching with other stores?
+bot> <thinking> The user's message is asking about price matching, which is a question about the shop's policies and not a bug report or a request for technical support. Therefore, I will classify this message as a PLATFORM QUESTION and provide an answer based on the FAQ document. </thinking>
+
+PLATFORM QUESTION
+
+I don't have information about price matching in our FAQ. For further assistance, please contact our support team by phone at 1-800-555-0199.

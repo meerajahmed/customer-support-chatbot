@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "id": "t1_bug_report",
+      "prompt": "Your app crashes every time I try to upload a profile photo. It just shows a white screen.",
+      "expected": "Acknowledges the bug and asks for additional information such as steps to reproduce or the customer's environment (browser, OS, device)."
+    },
+    {
+      "id": "t2_faq_return_policy",
+      "prompt": "What is your return policy?",
+      "expected": "Answers that most items can be returned within 30 days of delivery if unused and in original packaging, drawn from the FAQ."
+    },
+    {
+      "id": "t3_faq_shipping",
+      "prompt": "How long does delivery take?",
+      "expected": "Mentions estimated delivery times are shown at checkout and in the shipping confirmation email, drawn from the FAQ."
+    },
+    {
+      "id": "t4_faq_not_covered",
+      "prompt": "Do you offer same-day delivery for premium members?",
+      "expected": "States that this information is not covered in the FAQ and directs the customer to the phone support line."
+    },
+    {
+      "id": "t5_other_request",
+      "prompt": "Can you write me a poem about summer?",
+      "expected": "Politely declines and redirects the customer to the human support phone line."
+    },
+    {
+      "id": "t6_bug_report_detailed",
+      "prompt": "The payment page shows error 500 after I click Submit Order. I'm using Firefox 121 on Windows 11. Steps: add laptop to cart, click checkout, fill payment form, click Submit.",
+      "expected": "Recognizes a fully detailed bug report with all required fields and proceeds to file a ticket using the create_bug_report tool."
+    }
+  ]
+}

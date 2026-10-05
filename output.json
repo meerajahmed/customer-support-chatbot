@@ -1,0 +1,1 @@
+{"output":{"message":{"content":[{"text":"Hello! It's nice to connect with you. How can I assist you today? Whether you"}],"role":"assistant"}},"stopReason":"max_tokens","usage":{"inputTokens":2,"outputTokens":20,"totalTokens":22,"cacheReadInputTokenCount":0,"cacheWriteInputTokenCount":0}}
